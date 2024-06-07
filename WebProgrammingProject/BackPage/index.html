@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="fullpage.css" type="text/css" rel="stylesheet">
+    <title>김민균의 포트폴리오</title>
+</head>
+<body>
+<div id="fullpage">
+    <div class="section" id="frontPage">
+        <h2 id="outline">portfolio</h2>
+        <div class="container">
+            <div class="text">
+                <h1>반갑습니다.</h1>
+                <h1>풀스택 개발자를 꿈꾸는</h1>
+                <h1>김민균입니다.</h1>
+                <p>현재시간 : <div id="current-time"></div> </p>
+                <hr>
+                <a href="https://github.com/dirak4545/WEB"><img id="gitlogo" src="img/gitlogo.png" alt="GitHub Logo"></a>
+            </div>
+            <div class="image">
+                <img src="img/photo.png" alt="설명 이미지">
+            </div>
+        </div>
+    </div>
+    <div class="section" id="aboutMe">
+        <div class="slide" id="1stPageAboutMe" data-anchor="slide1">
+            <div id="whyfin">Why <div class="fp-tooltip" title="핀테크(FinTech 또는 Financial Technology)는 금융(Finance)과 기술(Technology)의 합성어로, 모바일, 빅 데이터, SNS 등의 첨단 정보 기술을 기반으로 한 금융서비스 및 산업의 변화를 통칭한다. 모바일을 통한 결제 · 송금 · 자산관리 · 크라우드 펀딩 등 금융과 IT가 융합된 것이다.">FinTech?</div></div>
+        </div>
+        <div class="slide" id="2ndPageAboutMe" data-anchor="slide2">
+            <div id="aboutfin">
+                <img style="width: 200px; height: 200px" src="img/moneyimg.png">
+                <img style="width: 200px; height: 200px" src="img/plusimg.png">
+                <img style="width: 200px; height: 200px" src="img/codingimg.png">
+            </div>
+            <hr style="width: 1200px">
+            <div id="fintext">
+            <p>핀테크란 금융(Finance)와 기술(Technology)의 합성어로 기존에 은행이나 금융기관 중심이던 금융업무가</p>
+            <p>IT기업과의 합쳐져 시너지를 이루는 산업을 의미합니다. </p>
+            <p>평소 경제나 국제정치를 좋아하기 때문에 자연스럽게 저의 전공과 연관된 해당 산업에 관심이 가게 되었습니다.</p>
+                <p>단순한 백엔드, 프론트엔드 개발자가 아닌 많은 금융데이터를 다뤄보고 처리하며 금융 도메인 지식까지 갖춘 개발자가 되기를 희망합니다.</p>
+            </div>
+        </div>
+        <div class="slide" data-anchor="slide3">
+            <div id="finContainerLeft">
+                <img style="width: 400px; height:300px" src="img/finTech.png">
+                <img style="width: 400px; height:300px" src="img/openai.png">
+            </div>
+                <hr width="900px">
+                <div id="finFurueText">
+                <p>OpenAI 의 ChatGPT가 발표되면서 전 세계적인 LLM의 개발이 가속화되고 있습니다.</p>
+                <p>당연히 이러한 현상은 현직과 미래 개발자들의 시장에서의 가치에 악영향을 줄 것으로 예상됩니다.</p>
+                <p>그리하여 핀테크 기업들이 수 많은 고객들의 정보와 금융정보들을 효율적이고 안전하게 관리하는 인원들을</p>
+                <p>필요로 하지만 한편으로는 인간 관점에서의 결제방법이나 금용자산을 관리하고 융통하는 서비스를 만드는 인원을</p>
+                <p>필요로 한다고 생각합니다.</p>
+                </div>
+            </div>
+        <div class="slide" data-anchor="slide4">
+            <canvas id="videoCanvas" width="600px" height="360px" style="border:1px solid #000000;display: none"></canvas>
+            <video id="sourceVideo" width="600px" height="360px" controls style="display:table-caption" muted>
+                <source src="img/stevejobsStanford.mp4"  type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <hr width="1000px">
+            <div id="aboutSteve">
+                <p>저의 인생에 가장 큰 영향을 미친 인물을 고르자면 단연코 스티브 잡스 입니다. 그가 IT 업계 종사자이며 시대를 바꾼 혁신가이며 애플의 창립자인 것을</p>
+                <p>모르는 사람은 없을 것 입니다. 최근에 CS와 프로그래밍을 공부하며 그에 대해 처음 떠올리는 단어는 '집요함'이라고 생각합니다.</p>
+                <p>지극히 저의 개인적인 생각이지만 스티브 잡스가 아이폰을 들고 나오며 시대가 바뀐 것처럼 전기자동차와 AI가 시대를 바뀐다는 이야기가 있지만 </p>
+                <p>스마트폰이 기존의 휴대전화를 대체하는 속도에 미치지 못하고 있습니다. 스마트폰과 AI, 전기자동차 같은 차세대 산업들간의 기술적 차이도 있겠지만</p>
+                <p>제가 생각하는 가장 큰 이유는 초기부터 높은 완성도와 소비자의 니즈를 맟춘 제품을 들고 시장에 진입해서 라고 생각합니다.</p>
+                <p>이와 같이 저도 개발자로 개발하면서 '집요함'을 갖추고 꼼꼼하고 빈틈없게 업무를 처리하는 것의 중요성을 그를 보면서 느낌니다.</p>
+            </div>
+            <img id="belowicon1" style="width: 80px; height: 80px" src="img/belowicon.png">
+        </div>
+        <div class="slide" data-anchor="slide4">
+        </div>
+        <div class="slide" data-anchor="slide5">
+        </div>
+        <div class="slide" data-anchor="slide6">
+        </div>
+    </div>
+    <div class="section" id="toughEx">
+        <div class="slide" data-anchor="slide1">
+            <div id="myExperience">My Experience</div>
+    </div>
+        <div class="slide" data-anchor="slide2">
+        </div>
+        <div class="slide" data-anchor="slide3">
+            <div id="contentLeft">
+                <img src="img/myTech.png" style="height: 500px; width: 800px">
+            </div>
+            <div id="contentRight">
+                <h2 style="color: white">My Works</h2>
+                <iframe src="index.html" width="800px" height="500px"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="AboutMe2">
+    <div class="slide" data-anchor="slide1">
+        <div id="abouttoss">About TOSS</div>
+    </div>
+        <div class="slide" data-anchor="slide2">
+            <div class="container1">
+                <div id="tosslogo"><a href="https://toss.im/team"></a><img src="img/tossapp.png"></div>
+                <div id="tosscontents">
+                    <p>Toss는 대한민국의 대표 핀테크 기업으로, 간편 송금, 결제, 금융 상품 비교, 투자 및 자산 관리 서비스를 제공합니다.</p>
+                    <p>2015년 출시 이후 빠르게 성장하며 사용자 중심의 혁신적인 금융 플랫폼으로 자리 잡았습니다.</p>
+                    <p>Toss는 모든 사람들이 더 나은 금융 생활을 할 수 있도록 돕는 것을 목표로 합니다.</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide" data-anchor="slide3">
+            <div id="tossCompanys">
+            <img src="img/tossPayments.webp">
+            <img src="img/tossInsurance.webp">
+            <br>
+            <img src="img/tossPlace.webp">
+            <img src="img/tossCx.webp">
+            </div>
+            <hr width="1000px">
+            <div id="companyContents">
+                <p>주로 간편 계좌 송금 서비스로 널리 알려졌으며, 토스 서비스 이전에 은행 간 송금의 번거로움을 해소하며</p>
+                <p>유니콘 기업으로 성장하였다. 현재는 송금 뿐만 아니라 은행, 보험, 주식, 쇼핑, 이동통신 과 같은</p>
+                <p>서비스도 함께 하며, 종합 금융 플랫폼으로 성장중인 회사이다.</p>
+            </div>
+
+        </div>
+    <div class="slide" data-anchor="slide4">
+        <div id="tossApplication">
+        <a href="https://toss.im/career/job-detail?job_id=4168351003"><img src="img/toss1.png"></a>
+        <a href="https://toss.im/career/job-detail?job_id=4168351003"><img src="img/toss2.png"></a>
+    </div>
+    </div>
+</div>
+    <div class="section" id="futurePlan">
+        <div class="slide" id="futurePlanContext">
+            <div id="aboutfutureplan">Future Plan</div>
+        </div>
+        <div class="slide" id="planFirst">
+            <div id="futurePlanTitle">
+                2024년 계획
+            </div>
+            <div id="topLine2">
+                <img src="img/opiclogo.webp" width="500px" height="400px">
+                <img src="img/정보처리기사.png" width="500px" height="400px">
+                <br>
+                <div style="font-size: 40px">하반기</div>
+                <div style="font-size: 20px ">희망하는 회사에는 없지만 많은 회사들이 요구로 하는 공인영어 점수인 'IL' 등급과
+                졸업 및 취업을 위한 정보처리기사 자격증을 취득할 예정입니다.</div>
+            </div>
+            <hr>
+            <div id="topLine1">
+                <img src="img/springsql.png" width="500px" height="400px">
+                <img src="img/reactlogo.png" width="500px" height="500px">
+                <br>
+                <div style="font-size: 40px ">상반기</div>
+                <div style="font-size: 20px ">React, Spring 과 같이 지원희망하는 회사에서 실무에 사용하는 프레임워크와 라이브러리들을
+                배우고 프로젝트를 통해 활용 해 볼 계획입니다.</div>
+            </div>
+        </div>
+        <div class="slide" id="planSecond">
+            <div id="futurePlanTitle1">
+                2025년 계획
+            </div>
+            <div id="topLine3">
+                <img src="img/algorithmContest.jpg" width="250px" height="400px">
+                <img src="img/hanaContest.jpg" width="250px" height="400px">
+                <br>
+                <div style="font-size: 40px">하반기</div>
+                <div style="font-size: 20px ">이미지의 예시와 같은 프로그래밍 대회나 관심 분야인 금융권에서 진행하는</div>
+                <div style="font-size: 20px"> 공모전, 또는 그 밖에 프로젝트에 참여하여서 지원 희망하는 회사에서 요구하는 유사 실무 경력을 쌓은 계획입니다.</div>
+            </div>
+            <hr>
+            <div id="topLine4">
+                <img src="img/sqld.png" width="500px" height="400px">
+                <img src="img/사람인.png" width="500px" height="500px">
+                <br>
+                <div style="font-size: 40px ">상반기</div>
+                <div style="font-size: 20px ">SQLD와 같은 전공 관련 자격증을 추가로 취득할 예정이며
+                4학년 하계 방학을 활용해서 중소, 중견, 대기업 인턴을 지원할 예정입니다.</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="fullpage.js"></script>
+<script>
+    new fullpage('#fullpage', {
+        navigation: true
+    });
+</script>
+</body>
+</html>
